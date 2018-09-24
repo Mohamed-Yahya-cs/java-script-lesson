@@ -13,4 +13,4 @@ let MeganSpence = ["Megan", "Spence", 14, null, true, false];
 
 greet (MohamedYahya[0], MohamedYahya[1]);
 greet (MeganSpence[0], MeganSpence[1]);
-greet (squar(MohamedYahya[2]), MeganSpence[2]);
+greet (square (MohamedYahya[2]), MeganSpence[2]);
