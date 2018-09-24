@@ -1,25 +1,16 @@
-let MartinYu = [];
+// hello world function
+function greet (firstName, LastName){
+  console.log('Hello' + firstNAme + 'world' + lastName)
+}
 
+function square (number) {
+  return number*number;
+}
 
-// Firstname, LastName, Age, ageAfraid, Haircolour, Eyecolour, Nationality, Personality, Weight, Height, Born, Socialskills, hair, male
-MartinYu = ["Martin", "Yu", 13, 29, null, false];
-MeganSpence = ["Megan", "Spence", 14, null, true, false, true];
+// Function, lastname, age, ageafraid, hair, male, female
+let MohamedYahya = ["Mohamed", "Yahya", 19, 40, null, true, false];
+let MeganSpence = ["Megan", "Spence", 14, null, true, false];
 
-
-
-
-let PhoneBoi = {
-  FirstName: "Phone",
-  LastName: "Boi",
-
-
-let memory = MartinYu.FirstName;
-MartinYu.FirstName = PhoneBoi.FirstName;
-PhoneBoi.FirstName = memory:
-
-
-console.log("Martin's name is " + MartinYu.FirstName);
-console.log("phone's name is " + PhoneBoi.FirstName);
-
-
-console.console.log (martinYu[1])
+greet (MohamedYahya[0], MohamedYahya[1]);
+greet (MeganSpence[0], MeganSpence[1]);
+greet (squar(MohamedYahya[2]), MeganSpence[2])
