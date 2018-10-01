@@ -22,12 +22,15 @@ function howManyTimes (numberStart, numberEnd, skipCount) {
    while (numberStart < numberEnd) {
    console.log(numberStart += skipCount);
 }
-
-//Shrink the code
 }
-let number = [4, 7, 13, 99, 0, 100, 5];
+//truth vs, falsy Example
+console.log(1 == 1);
+console.log('1' == 1);
+console.log('1' === 1);
+
+//let number = [4, 7, 13, 99, -5, 100, 5];
 //simpleOperators (number[0], number[1]);
 //simpleOperators (number[2], number[3]);
 //skipCounting (3, 6, 113);
 //skipCounting (8, 11, -351);
-howManyTimes (number[4], number[5], number[6]);
+//howManyTimes (number[4], number[5], number[6]);
