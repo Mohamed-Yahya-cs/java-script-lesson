@@ -23,12 +23,32 @@ function howManyTimes (numberStart, numberEnd, skipCount) {
    console.log(numberStart += skipCount);
 }
 }
-//truth vs, falsy Example
-console.log(1 == 1);
-console.log('1' == 1);
-console.log('1' === 1);
+function LooseEquality(firstOperand, secondOperant){
+  console.log(firstOperand == secondOperant);
+}
 
-//let number = [4, 7, 13, 99, -5, 100, 5];
+function StrictEquality(firstOperand, secondOperant){
+  console.log(firstOperand == secondOperant);
+}
+
+
+
+
+
+
+//truth vs, falsy Example
+//console.log(1 == 1);
+//console.log('1' == 1);
+//console.log('1' === 1);
+
+let number = [4, 7, 13, 99, 0, 100, 5, 1, '1'];
+
+
+LooseEquality(number[7], number[7]);
+LooseEquality(number[8], number[7]);
+
+StrictEquality(number[8], number[7]);
+
 //simpleOperators (number[0], number[1]);
 //simpleOperators (number[2], number[3]);
 //skipCounting (3, 6, 113);
